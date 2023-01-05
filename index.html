@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Javascript project</title>
+</head>
+<body>
+
+  <header class="header">
+    <h1 class="header__title">Loja versão 1.0</h1>
+  </header>
+  
+  <main class="main">
+   
+    <section class="title">
+      <h2>Produtos</h2>
+      <span>Lista de produtos da Loja</span>
+    </section> <!-- title -->
+
+    <section class="card">   
+      <div class="line-input">
+        <label for="produto">Produto</label>
+        <input type="text" id="produto" placeholder="Nome do produto">
+      </div> <!-- line-input -->
+      
+      <div class="line-input">
+        <label for="valor">Valor</label>
+        <input type="number" id="preco" placeholder="Valor do produto">
+      </div> <!-- line-input -->
+
+      <button type="submit" onclick="produto.salvar()">Salvar</button>
+      <button type="submit" onclick="produto.cancelar()">Cancelar</button>
+    </section> <!-- card -->
+
+    <section class="content">
+      <table border="1">
+        <thead>
+          <th class="center">ID</th>
+          <th>Produto</th>
+          <th>Preço</th>
+          <th class="center">Ações</th>
+        </thead>
+        <tbody id="tbody">
+          <tr>
+            <td class="center">1</td>
+            <td>mesa</td>
+            <td> 1900,00</td>
+            <td class="center">
+              <img src="/assets/img/edit.png" alt="edit's icon">
+              <img src="/assets/img/delete.png" alt="delete's icon">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section> <!-- content -->
+
+  </main>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
