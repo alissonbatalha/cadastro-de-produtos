@@ -1,2 +1,2 @@
 # Loja-OO-javascript
-Uma mini loja virtual cosntruída com HTML, CSS e Javascript puro!
+Sistema de cadastro de produtos cosntruída com HTML, CSS e Javascript puro!
