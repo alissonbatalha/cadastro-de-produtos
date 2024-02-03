@@ -80,7 +80,7 @@ table {
   border: 1px solid #ccc;
 
   width: 100vw;
-  max-width: 475px;
+  max-width: 100vw;
 }
 
 table th {
